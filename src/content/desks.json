@@ -1,0 +1,26 @@
+[
+  {
+    "id": "world",
+    "name": "World",
+    "blurb": "Reporting from the places a story is actually happening, and staying long enough to photograph it.",
+    "order": 1
+  },
+  {
+    "id": "politics",
+    "name": "Politics",
+    "blurb": "Who decides, who pays, and what the paperwork says once the announcement is over.",
+    "order": 2
+  },
+  {
+    "id": "technology",
+    "name": "Technology",
+    "blurb": "The machinery behind the product, and the people who keep it running.",
+    "order": 3
+  },
+  {
+    "id": "health",
+    "name": "Health",
+    "blurb": "Care as it is practised: in clinics, in homes, and in the gaps between the two.",
+    "order": 4
+  }
+]
