@@ -150,29 +150,6 @@ const draw = async (name, w, h, desk, scene) => {
   return name;
 };
 
-// slug, desk, scene. Kept in step with src/content/articles/.
-const plates = [
-  ['the-long-crossing', 'world', 'crowd'],
-  ['border-town-arithmetic', 'world', 'street'],
-  ['what-the-camps-run-on', 'world', 'crowd'],
-  ['the-ferry-that-still-runs', 'world', 'coast'],
-  ['counting-the-return', 'world', 'interior'],
-  ['a-road-and-a-checkpoint', 'world', 'street'],
-  ['harvest-under-drought', 'world', 'field'],
-  ['the-budget-nobody-read', 'politics', 'interior'],
-  ['procurement-season', 'politics', 'interior'],
-  ['two-words-in-the-statute', 'politics', 'interior'],
-  ['the-map-they-redrew', 'politics', 'street'],
-  ['where-the-cable-lands', 'technology', 'coast'],
-  ['the-city-runs-on-a-spreadsheet', 'technology', 'interior'],
-  ['cooling-the-hall', 'technology', 'interior'],
-  ['a-repair-shop-in-the-mall', 'technology', 'street'],
-  ['night-shift-at-the-clinic', 'health', 'interior'],
-  ['the-home-visit', 'health', 'interior'],
-  ['who-answers-the-phone', 'health', 'crowd'],
-  ['vaccine-supply-lines', 'health', 'field'],
-];
-
 const portraits = [
   ['linnea-holm', 'politics'],
   ['dessie-okonkwo', 'world'],
@@ -182,8 +159,7 @@ const portraits = [
   ['arun-pelletier', 'world'],
 ];
 
-const done = await Promise.all([
-  ...plates.map(([slug, desk, scene]) => draw(slug, 1800, 1200, desk, scene)),
-  ...portraits.map(([id, desk]) => draw(`portrait-${id}`, 640, 640, desk, 'portrait')),
-]);
-console.log(`${done.length} plates → src/assets/sample/`);
+const done = await Promise.all(
+  portraits.map(([id, desk]) => draw(`portrait-${id}`, 640, 640, desk, 'portrait')),
+);
+console.log(`${done.length} portraits → src/assets/sample/`);

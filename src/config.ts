@@ -1,5 +1,5 @@
 // src/config.ts — single entry point for site settings. Everything site-specific lives here; never hardcode in components.
-import defaultOgImage from './assets/sample/the-long-crossing.avif';
+import defaultOgImage from './assets/sample/the-cranes-at-kieldrecht.avif';
 
 export const site = {
   name: 'Halftone',
@@ -15,10 +15,10 @@ export const site = {
 
 export const nav = {
   header: [
-    { label: 'World', href: '/world' },
-    { label: 'Politics', href: '/politics' },
-    { label: 'Technology', href: '/technology' },
-    { label: 'Health', href: '/health' },
+    { label: 'Ports', href: '/ports' },
+    { label: 'Transit', href: '/transit' },
+    { label: 'Power', href: '/power' },
+    { label: 'Land', href: '/land' },
     { label: 'Colophon', href: '/colophon' },
   ],
   footer: [
@@ -51,7 +51,7 @@ export const coverLines = {
 };
 
 export const blog = {
-  postsPerPage: 6, // a desk front runs six; the seventh article starts page two
+  postsPerPage: 4, // a desk front runs four; the fifth article starts page two
   relatedPosts: 3,
   showReadingTime: true,
 };

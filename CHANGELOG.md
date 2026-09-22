@@ -2,6 +2,27 @@
 
 All notable changes to this project are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-09-22
+
+The demo content is rebuilt around real photographs. The theme's code is unchanged apart from one
+config default; what changed is what it is filled with.
+
+### Changed
+
+- **The sample photographs are real pictures of real places**, not drawings. Nineteen of them, under
+  public-domain, CC0 or CC BY licences, credited on the plate in `heroCredit` and in full in
+  `THIRD-PARTY-NOTICES.md`. Unsplash and similar libraries were ruled out: their terms do not cover
+  redistributing the pictures inside a template.
+- **The desks are Ports, Transit, Power and Land.** The free licences that allow redistribution are
+  strongest on infrastructure, transport, energy and landscape, so the demo magazine was rebuilt on
+  that axis rather than filled with weak pictures on the old one.
+- **The nineteen articles are new**, written to the photographs. They describe real places, so they
+  carry no invented statistics, quotes or officials — the register is observational rather than
+  reported.
+- `blog.postsPerPage` is `4` instead of `6`, so a five-piece desk still paginates.
+- `scripts/make-sample-plates.mjs` now draws the six contributor portraits only. The contributors
+  are fictional, and a real face does not belong under an invented byline.
+
 ## [1.0.0] - 2026-09-22
 
 First release. The demo is live, and the Pro edition is on sale.

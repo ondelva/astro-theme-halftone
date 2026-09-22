@@ -7,10 +7,10 @@ const DIST = 'dist';
 
 const PAGES = [
   '/index.html',
-  '/world/index.html',
-  '/world/what-the-camps-run-on/index.html',
-  '/world/the-long-crossing/index.html',
-  '/technology/the-city-runs-on-a-spreadsheet/index.html',
+  '/ports/index.html',
+  '/ports/the-cranes-at-kieldrecht/index.html',
+  '/transit/flinders-street-1927/index.html',
+  '/power/the-turbine-hall-at-kachlet/index.html',
   '/colophon/index.html',
 ];
 

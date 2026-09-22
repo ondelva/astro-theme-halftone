@@ -1,26 +1,26 @@
 [
   {
-    "id": "world",
-    "name": "World",
-    "blurb": "Reporting from the places a story is actually happening, and staying long enough to photograph it.",
+    "id": "ports",
+    "name": "Ports",
+    "blurb": "The edge where a country meets its freight: quays, cranes, and the weather that stops them.",
     "order": 1
   },
   {
-    "id": "politics",
-    "name": "Politics",
-    "blurb": "Who decides, who pays, and what the paperwork says once the announcement is over.",
+    "id": "transit",
+    "name": "Transit",
+    "blurb": "Rails, platforms and boats, and the timetables that hold them to the minute.",
     "order": 2
   },
   {
-    "id": "technology",
-    "name": "Technology",
-    "blurb": "The machinery behind the product, and the people who keep it running.",
+    "id": "power",
+    "name": "Power",
+    "blurb": "Where electricity is made and what it is made beside: turbines, transformers, cooling towers.",
     "order": 3
   },
   {
-    "id": "health",
-    "name": "Health",
-    "blurb": "Care as it is practised: in clinics, in homes, and in the gaps between the two.",
+    "id": "land",
+    "name": "Land",
+    "blurb": "Ground, water and weather, photographed from close up and from orbit.",
     "order": 4
   }
 ]

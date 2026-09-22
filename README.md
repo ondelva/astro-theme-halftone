@@ -70,7 +70,7 @@ Set `SITE_URL` to your address afterwards. See [docs/deploy.md](docs/deploy.md).
 
 ## Footer credit
 
-The footer carries one line crediting the theme — `Halftone theme by Ondelva`, linking to this
+The footer carries one line crediting the theme — `Halftone theme by ondelva`, linking to this
 repository. It is a plain link in `src/layouts/Base.astro`; delete it if you would rather not have
 it. Keeping it is how the next person finds the theme. Halftone Pro ships without it.
 

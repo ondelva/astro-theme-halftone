@@ -112,7 +112,7 @@ promise about the picture, and it is better made once, in config, than guessed a
 
 ```ts
 export const blog = {
-  postsPerPage: 6,
+  postsPerPage: 4,
   relatedPosts: 3,
   showReadingTime: true,
 };

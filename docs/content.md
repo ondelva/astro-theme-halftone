@@ -15,8 +15,8 @@ is no second slug field to fall out of sync with it.
 ```json
 {
   "id": "world",
-  "name": "World",
-  "blurb": "Reporting from the places a story is actually happening, and staying long enough to photograph it.",
+  "name": "Ports",
+  "blurb": "The edge where a country meets its freight: quays, cranes, and the weather that stops them.",
   "order": 1
 }
 ```
@@ -38,21 +38,21 @@ One file per article, in `src/content/articles/`. **The filename is the slug**, 
 
 ```yaml
 ---
-title: 'The long crossing'
-deck: 'Twice a week a passenger ferry leaves Marrow Quay after midnight, carrying workers north.'
-standfirst: 'The night sailing has become the cheapest way north as the drought empties field work.'
-desk: 'world'
-kicker: 'Photo Essay'
-byline: ['dessie-okonkwo', 'arun-pelletier']
+title: 'The cranes at Kieldrecht'
+deck: 'A row of ship-to-shore gantries stands on the left bank of the Scheldt, above a polder.'
+standfirst: 'The MSC PSA European Terminal is the newest edge of the Port of Antwerp.'
+desk: 'ports'
+kicker: 'Dispatch'
+byline: ['linnea-holm']
 date: 2026-09-18
-hero: '../../assets/sample/the-long-crossing.avif'
-heroAlt: 'Passengers waiting in line at a lit quay before dawn'
-heroCaption: 'Passengers wait at Marrow Quay for the 1:40 sailing to Brackwell.'
-heroCredit: 'Arun Pelletier / Halftone'
+hero: '../../assets/sample/the-cranes-at-kieldrecht.avif'
+heroAlt: 'A long row of container gantry cranes silhouetted above flat ground at dusk'
+heroCaption: 'Container cranes at the MSC PSA European Terminal, Kieldrecht.'
+heroCredit: 'Benoit Brummer / CC BY 4.0'
 heroFocus: 'right'
-format: 'photoessay'
+format: 'report'
 featured: true
-tags: ['migration', 'ports', 'labour']
+tags: ['ports', 'shipping', 'infrastructure']
 ---
 ```
 
@@ -91,7 +91,7 @@ rail:
   - kind: stat
     value: '3×'
     label: 'Passengers per sailing since March'
-    source: 'Marrow Quay terminal log'
+    source: 'Wikimedia Commons'
 ```
 
 | Block  | Fields                    | Notes                                               |
@@ -133,7 +133,7 @@ chart, a map, an embed — and use it inline:
 ```mdx
 import Soundings from '../../components/Soundings.astro';
 
-<Soundings port="Marrow Quay" />
+<Soundings port="Kieldrecht" />
 ```
 
 The demo ships one `.mdx` piece so the pipeline is wired and typechecked. For three headline

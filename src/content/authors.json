@@ -14,42 +14,42 @@
     "order": 1
   },
   {
+    "id": "mira-halvorsen",
+    "name": "Mira Halvorsen",
+    "role": "Editor, Power",
+    "bio": "Mira Halvorsen writes about infrastructure, from the transmission grid to the water that cools it.",
+    "portrait": "../assets/sample/portrait-mira-halvorsen.avif",
+    "order": 2
+  },
+  {
     "id": "dessie-okonkwo",
     "name": "Dessie Okonkwo",
-    "role": "Correspondent, World",
-    "bio": "Dessie Okonkwo reports on migration and borders. She has filed from fourteen countries for Halftone.",
+    "role": "Correspondent, Ports",
+    "bio": "Dessie Okonkwo reports on freight and the coastline it arrives on. She has filed from fourteen countries for Halftone.",
     "portrait": "../assets/sample/portrait-dessie-okonkwo.avif",
     "order": 3
   },
   {
     "id": "rafael-viana",
     "name": "Rafael Viana",
-    "role": "Correspondent, Politics",
-    "bio": "Rafael Viana covers budgets, procurement and the slow parts of government.",
+    "role": "Correspondent, Transit",
+    "bio": "Rafael Viana covers railways, ferries and the timetables that hold them together.",
     "portrait": "../assets/sample/portrait-rafael-viana.avif",
     "order": 4
   },
   {
-    "id": "mira-halvorsen",
-    "name": "Mira Halvorsen",
-    "role": "Editor, Technology",
-    "bio": "Mira Halvorsen writes about infrastructure, from undersea cable to municipal software.",
-    "portrait": "../assets/sample/portrait-mira-halvorsen.avif",
-    "order": 2
-  },
-  {
     "id": "soo-jin-pae",
     "name": "Soo-jin Pae",
-    "role": "Correspondent, Health",
-    "bio": "Soo-jin Pae reports on clinics, caregiving and the economics of both.",
+    "role": "Correspondent, Land",
+    "bio": "Soo-jin Pae reports on ground, water and the way both are photographed.",
     "portrait": "../assets/sample/portrait-soo-jin-pae.avif",
     "order": 5
   },
   {
     "id": "arun-pelletier",
     "name": "Arun Pelletier",
-    "role": "Staff photographer",
-    "bio": "Arun Pelletier has photographed for Halftone since the first issue.",
+    "role": "Picture editor",
+    "bio": "Arun Pelletier selects and edits the photography in Halftone. The pictures themselves are credited to their makers on the plate.",
     "portrait": "../assets/sample/portrait-arun-pelletier.avif",
     "order": 6
   }
