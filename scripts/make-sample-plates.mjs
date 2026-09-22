@@ -152,7 +152,7 @@ const draw = async (name, w, h, desk, scene) => {
 
 // slug, desk, scene. Kept in step with src/content/articles/.
 const plates = [
-  ['the-long-crossing', 'world', 'coast'],
+  ['the-long-crossing', 'world', 'crowd'],
   ['border-town-arithmetic', 'world', 'street'],
   ['what-the-camps-run-on', 'world', 'crowd'],
   ['the-ferry-that-still-runs', 'world', 'coast'],

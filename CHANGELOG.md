@@ -2,6 +2,22 @@
 
 All notable changes to this project are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.0.0] - 2026-09-22
+
+First release. The demo is live, and the Pro edition is on sale.
+
+### Added
+
+- The README links to the Pro edition's checkout, with its two prices.
+
+### Changed
+
+- The lead piece on the home cover carries a different sample photograph. The cover plate holds
+  its scrim over the left of the frame, so only the band to the right of the type reads as a
+  picture — and the old plate had an empty horizon there, which left the cover looking like a
+  dark field rather than a photograph.
+- The screenshots in `docs/screenshots/` were taken again against this build.
+
 ## [0.9.0] - 2026-09-22
 
 First snapshot of the free edition, cut from Halftone Pro. The live demo and the screenshots

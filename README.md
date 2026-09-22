@@ -3,7 +3,7 @@
 A photo-led newsmagazine theme for Astro: the picture leads, the type is laid on it, and the
 density lives in the rail beside the piece. Free and MIT-licensed.
 
-[Live demo](https://halftone-free.ondelva.com) · [Pro demo](https://halftone.ondelva.com)
+[Live demo](https://halftone-free.ondelva.com) · [Pro demo](https://halftone.ondelva.com) · [Get Pro](https://buy.polar.sh/polar_cl_3X186IpxV4IC54Eh871nUsDz0RUkPeSj49y0r01UDcx)
 
 ![Halftone: the home cover plate and its cover lines](docs/screenshots/home-light.jpg)
 
@@ -77,7 +77,9 @@ it. Keeping it is how the next person finds the theme. Halftone Pro ships withou
 ## Free vs Pro
 
 Halftone Pro is the same magazine with the second axis through it — the ways across, the reading
-apparatus and the integrations. See it running at [halftone.ondelva.com](https://halftone.ondelva.com).
+apparatus and the integrations. See it running at [halftone.ondelva.com](https://halftone.ondelva.com),
+and [buy it here](https://buy.polar.sh/polar_cl_3X186IpxV4IC54Eh871nUsDz0RUkPeSj49y0r01UDcx) — $49 for one person,
+$129 for a team of up to ten.
 
 |                | Free (this repo)                                | Pro                                                           |
 | -------------- | ----------------------------------------------- | ------------------------------------------------------------- |
