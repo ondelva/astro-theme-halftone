@@ -20,8 +20,8 @@
   --foreground: light-dark(#111113, #ececea); /* true black ink */
   --muted: light-dark(#5d6164, #9ea2a5); /* bylines, folios, photo credits */
   --border: light-dark(#d5d5d1, #333336); /* hairline rules */
-  --primary: light-dark(#c60f26, #ff6b76); /* the spot: wordmark, kicker boxes, links */
-  --primary-hover: light-dark(#9c0b1e, #ff969e);
+  --primary: light-dark(#c60f26, #f4454f); /* the spot: wordmark, kicker boxes, links */
+  --primary-hover: light-dark(#9c0b1e, #ff8087);
   --on-primary: light-dark(#ffffff, #111113);
   --plate: light-dark(
     #141416,
@@ -30,8 +30,8 @@
   --on-plate: light-dark(#ffffff, #ffffff); /* cover lines set on a plate */
   --on-plate-muted: light-dark(#c9c9c6, #c9c9c6); /* decks, credits on a plate */
   --primary-on-plate: light-dark(
-    #ff6b76,
-    #ff6b76
+    #f4454f,
+    #f4454f
   ); /* the spot ON a plate. Plates are dark in both modes, so the light-mode red never applies there */
   --focus-ring: var(--primary);
 
@@ -72,7 +72,7 @@
     --plate: #141416;
     --on-plate: #ffffff;
     --on-plate-muted: #c9c9c6;
-    --primary-on-plate: #ff6b76;
+    --primary-on-plate: #f4454f;
   }
 }
 

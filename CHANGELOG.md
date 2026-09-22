@@ -2,6 +2,17 @@
 
 All notable changes to this project are documented here. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.1] - 2026-09-22
+
+### Changed
+
+- **The spot colour on a photograph is a red, not a salmon.** `--primary-on-plate` is `#f4454f`
+  instead of `#ff6b76`, and dark mode's `--primary` follows it, so the wordmark on a cover plate
+  reads as the same red the paper carries rather than a pink lifted off it. The paper red
+  (`#c60f26`) is unchanged: it doubles as the link colour and already sits at the AA floor.
+- The narrow-screen scrim closes to 0.85 at the head of a plate instead of 0.80, which is what the
+  new spot needs at display size over a bright photograph.
+
 ## [1.1.0] - 2026-09-22
 
 The demo content is rebuilt around real photographs. The theme's code is unchanged apart from one
