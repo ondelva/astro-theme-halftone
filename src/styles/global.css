@@ -111,7 +111,7 @@
        scrim is a gradient anchored wherever the type is.
 
        Narrow: the cover lines fill the plate top to bottom, so it runs up the page and only
-       opens to 0.85 at the head, still above the wordmark's 0.83. style-check-ignore */
+       opens to 0.85 at the head, still above the wordmark's 0.83. design-tells-ignore */
     background: linear-gradient(
       to top,
       color-mix(in srgb, var(--plate) 92%, transparent) 0 80%,
@@ -123,7 +123,7 @@
      opens to 0.25, which is where the photograph is finally on its own. */
   @media (min-width: 64rem) {
     .plate::after {
-      /* style-check-ignore */
+      /* design-tells-ignore */
       background: linear-gradient(
         100deg,
         color-mix(in srgb, var(--plate) 92%, transparent) 0 54%,
@@ -136,7 +136,7 @@
      of a photo essay. The scrim follows the type down there, which leaves the frame above it
      to the photograph. Same 0.92 wherever the type actually is. */
   .plate--bottom::after {
-    /* style-check-ignore */
+    /* design-tells-ignore */
     background: linear-gradient(
       to top,
       color-mix(in srgb, var(--plate) 92%, transparent) 0 24%,
